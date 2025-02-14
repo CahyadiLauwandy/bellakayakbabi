@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+        .top-section {
+      background: linear-gradient(rgba(255, 255, 255, 0.3), 
+                    rgba(255, 255, 255, 0.3)),
+                  url('https://freedesignfile.com/upload/2019/09/Valentine-hearts-background-vector-02.jpg')
+                  center/cover no-repeat;
+      padding: 100px 0px;
+      text-align: center;
+      opacity:0.7;
+    }
+    
+    .top-section p {
+      margin: 30px 200px; 
+    }
+   
+    .center1, .center2 {
+      margin: 0 auto;
+      width: 80%;
+    }
+    
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 10px; 
+      flex-wrap: wrap;
+      margin: 100px 0; 
+    }
+    
+
+    div.left, div.right {
+      margin: 20px;
+      width: 300px; 
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      position: relative;
+    }
+    
+
+    .hidden-text {
+      opacity: 0;
+      transition: opacity 1s;
+      font-family: "Brush Script MT", cursive;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+   
+    .note {
+      width: 500px;           
+      min-height: 250px;       
+      background: url('https://png.pngtree.com/png-clipart/20211017/original/pngtree-note-paper-png-image_6855337.png') center/contain no-repeat;
+      background-size: contain;
+      background-color: transparent;
+      display: inline-block;
+      padding: 40px 20px;
+      margin: 40px auto;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-section"> <h1>Hai bel..</h1>
+    <p style="font-family:courier">
+      Happy valentines day bel! Aku baru sadar kalo kyknya ak jarang ngomong tentang the things yang i like about you. Mungkin soale e banyak judge haha (Scroll bawah)</p></div>
+   
+
+  
+  <div class="container">
+    <div class="left" style="background-color:#FFF4A3;" onclick="showText(this)">
+      <pre style="font-size:20px; font-family:courier; text-align:center; margin:0;">Click me!</pre>
+      <p class="hidden-text">I like when you smilee meskipun kamu ga noleh aku, you should smile more!</p>
+    </div>
+    
+    <div class="right" style="background-color:#FFF4A3;" onclick="showText(this)">
+      <pre style="font-size:20px; font-family:courier; text-align:center; margin:0;">Click me!</pre>
+      <p class="hidden-text">You make everything funner, aku ya gaisa jelasin tapi jadi lebih seru aee</p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="left" style="background-color:#FFC0C7;" onclick="showText(this)">
+      <pre style="font-size:20px; font-family:courier; text-align:center; margin:0;">Click me!</pre>
+      <p class="hidden-text">Kamu slalu ndengerin aku and your replies are always goodd </p>
+    </div>
+    
+    <div class="right" style="background-color:#FFC0C7;" onclick="showText(this)">
+      <pre style="font-size:20px; font-family:courier; text-align:center; margin:0;">Click me!</pre>
+      <p class="hidden-text">Kamu inget hal" seng paleng gajelass tapi thank you for remembering the little things</p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="left" style="background-color:#D9EEE1;" onclick="showText(this)">
+      <pre style="font-size:20px; font-family:courier; text-align:center; margin:0;">Click me!</pre>
+      <p class="hidden-text">I like how kamu sbnre ga banyak judgee meskipun bercandamu judge terus</p>
+    </div>
+    
+    <div class="right" style="background-color:#D9EEE1;" onclick="showText(this)">
+      <pre style="font-size:20px; font-family:courier; text-align:center; margin:0;">Click me!</pre>
+      <p class="hidden-text">I like how you care for others, kamu sering ngalah buat orang lain (tp jgn bnyk" ya nti km seng rugi)</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <pre style="margin:0, font-size:18px;" >
+    
+    
+  Sorry kalo alay 
+  yaaa,  maklumin 
+  dikitt. This took so 
+  much time karena ak 
+  so nub hahahaha. 
+  Hope you enjoy 
+  wess, happy 
+  valentines 
+  day belll!<3
+    </pre>
+  </div>
+
+
+<script>
+  function showText(element) {
+    let hiddenText = element.querySelector(".hidden-text");
+    hiddenText.style.opacity = "1";
+  }
+</script>
+
+</body>
+</html>
